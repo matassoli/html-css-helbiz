@@ -1,0 +1,59 @@
+body {
+  height: 1000px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navibar img {
+  width: 80px;
+}
+
+.navibar {
+  height: 60px;
+  line-height: 50px;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.main__nav, .menu__nav {
+  display: inline-block;
+}
+
+.main__nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #000;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.menu__nav .button {
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  color: #000;
+  border-radius: 0;
+  margin-right: 15px;
+  line-height: normal;
+}
+
+.btn {
+  background: black;
+  color: #FFF;
+  border-radius: 0;
+}
+
+.btn__mobile {
+  background-color: transparent;
+  color: #000;
+  font-size: 20px;
+}
