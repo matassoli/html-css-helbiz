@@ -8,9 +8,9 @@ body {
 }
 
 .navibar {
-  padding: 0 50px;
   height: 60px;
   line-height: 60px;
+  padding: 0 50px;
 }
 
 li {
@@ -40,16 +40,16 @@ a:hover {
   background-color: transparent;
   border: none;
   border-left: 1px solid black;
-  border-right: 1px solid black;
   border-radius: 0;
-  margin-right: 15px;
+  border-right: 1px solid black;
   line-height: normal;
+  margin-right: 15px;
 }
 
 .btn {
   background: black;
-  color: #FFF;
   border-radius: 0;
+  color: #FFF;
   padding: 6px 20px;
 }
 
@@ -81,8 +81,8 @@ h1 {
 }
 
 .product {
-  padding-top: 60px;
   padding-bottom: 30px;
+  padding-top: 60px;
 }
 
 .product__logo {
@@ -101,24 +101,24 @@ h1 {
 }
 
 .section-2__container {
-  max-width: 800px;
   margin: auto;
+  max-width: 800px;
   padding-top: 200px;
 }
 
 .section-2__banner {
   background-image: url("../img/banner.jpg");
-  height: 500px;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
   position: absolute;
   width: 100%;
 }
 
 .box {
   display: inline-block;
-  width: calc((100% / 3) - 4px);
   position: relative;
+  width: calc((100% / 3) - 4px);
 }
 
 .box-1 {
@@ -128,8 +128,8 @@ h1 {
 }
 
 .box-1 img {
-  width: 100%;
   max-width: 260px;
+  width: 100%;
 }
 
 .box-2 {
@@ -137,8 +137,8 @@ h1 {
 }
 
 .box-2, .box-3 {
-  vertical-align: bottom;
   padding-bottom: 70px;
+  vertical-align: bottom;
 }
 
 .box-3 {
@@ -165,12 +165,12 @@ h1 {
 
 .section-3-box-1, .section-3-box-2 {
   background-color: #5ad2ff;
-  width: 45%;
   display: inline-block;
   height: 800px;
-  vertical-align: middle;
-  padding: 50px 0;
   margin: 0 20px 0 20px;
+  padding: 50px 0;
+  vertical-align: middle;
+  width: 45%;
 }
 
 .section-3-box-2 {
@@ -190,9 +190,9 @@ h1 {
 }
 
 footer {
-  margin-top: 50px;
   background: #000;
   color: #FFF;
+  margin-top: 50px;
 }
 
 footer .col-md-2 {
@@ -203,12 +203,13 @@ footer .col-md-2 {
 footer ul li {
   display: block;
   margin-left: 100px;
+  padding-bottom: 10px;
 }
 
 footer h3 {
-  margin-top: 100px;
+  font-size: 40px;
   font-weight: 700;
-  font-size: 20px;
+  margin-top: 100px;
 }
 
 footer h4 {
@@ -216,8 +217,12 @@ footer h4 {
   margin-bottom: 40px;
 }
 
+.footer__left {
+  padding: 20px 0 0 50px;
+}
+
 .footer__right {
-  padding-right: 200px;
+margin-left: 200px;
 }
 
 @media screen and (max-width: 992px) {
@@ -255,14 +260,14 @@ footer h4 {
   }
 
   .box-1 {
-    left: auto;
     display: block;
+    left: auto;
   }
 
   .box-2 {
-    right: auto;
     display: block;
     padding: 40px 0 0 20px;
+    right: auto;
   }
 
   .box-3 {
@@ -274,8 +279,8 @@ footer h4 {
   }
 
   .section-3 {
-    padding: 0 20px;
     margin-top: 50px;
+    padding: 0 20px;
   }
 
   .section-3 h2 {
@@ -285,9 +290,9 @@ footer h4 {
 
   .section-3-box-1, .section-3-box-2 {
     display: block;
-    width: 100%;
     height: 600px;
     margin: 0;
     margin-top: 20px;
+    width: 100%;
   }
 }
