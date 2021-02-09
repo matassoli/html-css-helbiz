@@ -202,7 +202,6 @@ footer .col-md-2 {
 
 footer ul li {
   display: block;
-  margin-left: 100px;
   padding-bottom: 10px;
 }
 
@@ -226,7 +225,7 @@ footer img {
 }
 
 .footer__right {
-margin-left: 200px;
+  margin-left: 200px;
 }
 
 .footer__bottom {
