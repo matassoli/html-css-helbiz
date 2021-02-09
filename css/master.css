@@ -13,7 +13,7 @@ body {
   padding: 0 50px;
 }
 
-li {
+.navibar li {
   display: inline-block;
   text-transform: uppercase;
 }
@@ -209,12 +209,16 @@ footer ul li {
 footer h3 {
   font-size: 40px;
   font-weight: 700;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 footer h4 {
   font-weight: 700;
   margin-bottom: 40px;
+}
+
+footer img {
+  width: 120px;
 }
 
 .footer__left {
@@ -223,6 +227,10 @@ footer h4 {
 
 .footer__right {
 margin-left: 200px;
+}
+
+.footer__bottom {
+  margin-top: 150px;
 }
 
 @media screen and (max-width: 992px) {
@@ -275,7 +283,7 @@ margin-left: 200px;
   }
 
   .box-2 img {
-    width: 100%;
+    max-width: 100%;
   }
 
   .section-3 {
@@ -294,5 +302,9 @@ margin-left: 200px;
     margin: 0;
     margin-top: 20px;
     width: 100%;
+  }
+
+  footer h3 {
+    font-size: 30px;
   }
 }
