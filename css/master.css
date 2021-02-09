@@ -1,5 +1,4 @@
 body {
-  height: 1000px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -8,8 +7,9 @@ body {
 }
 
 .navibar {
+  padding: 0 50px;
   height: 60px;
-  line-height: 50px;
+  line-height: 60px;
 }
 
 li {
@@ -22,7 +22,7 @@ li {
 }
 
 .main__nav li {
-  margin-right: 20px;
+  margin-right: 35px;
 }
 
 nav a {
@@ -50,10 +50,70 @@ a:hover {
   background: black;
   color: #FFF;
   border-radius: 0;
+  padding: 6px 20px;
 }
 
 .btn__mobile {
   background-color: transparent;
   color: #000;
   font-size: 20px;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 700;
+  color: #000;
+}
+
+.hero {
+  margin: 80px 0 50px 0;
+}
+
+.hero img {
+  width: 90%;
+}
+
+.bg__grey {
+  background-color: #fafafa;
+}
+
+.product {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.product__logo {
+  height: 20px;
+}
+
+.product p, .product a {
+  display: block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.product img:last-child {
+  max-height: 320px;
+  width: auto;
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  .product {
+    margin:0 15px 25px 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .product img:last-child {
+    max-height: 250px;
+    width: auto;
+  }
 }
